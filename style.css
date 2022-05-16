@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for header */
+
+img {
+  width: 50px;
+  height: 45px;
+}
+
+#header-text {
+  font-size: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* header {
+  height: 100px;
+} */
+
+.navbar {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px;
+}
+
+.logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-wrapper, .nav-menu ul {
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn-register {
+  background: #fff;
+  border: none;
+  border-radius:40px;
+  height: 35px;
+  width: 100px;
+}
+
+
+/* Styling for the Hero-section */
+
+.hero-section {
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 200px
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.hero-text {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.ht-secondary {
+  color: #8b8b8b;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.btn-get-started {
+    background: #a8ff35;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius:40px;
+    height: 50px;
+    width: 160px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.abstract {
+  display: flex;
+  gap: 10px;
+}
+
+.arrow {
+  margin-top: 30px;
+}
+
+.arrow p {
+  font-size: 10px;
+  line-height: none;
+  font-style: italic;
+  color: #8b8b8b;
+}
+
+.arrow img {
+  height: 20px;
+  width: 20px;
+}
+
+/* Styling for deals */
+
+.deals  {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.deals-text {
+  font-size: 54px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.deal-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.monthly {
+  color: #fff;
+}
+
+.yearly {
+  color: #8b8b8b;
+}
+
+/* toggle button */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 7px;
+  bottom: 7px;
+  background-color: #a8ff35;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+
+input:checked + .slider {
+  background-color: #000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+  border: 1px solid #fff;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.deal-container {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  gap: 80px
+}
+
+.personal, .regular, .premium {
+  color: #000;
+  background: #fff;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 250px;
+  /* height: 640px; */
+  border-radius: 30px;
+  gap: 3px;
+}
+
+.dollar {
+  font-size: 40px;
+  font-weight: 900;
+}

@@ -58,7 +58,7 @@ a {
   background: #fff;
   border: none;
   border-radius:40px;
-  height: 35px;
+  height: 40px;
   width: 100px;
 }
 
@@ -333,6 +333,7 @@ hr {
 
 footer .navbar {
   background: #fff;
+  padding: 13px 80px;
   color: #000 
 }
 

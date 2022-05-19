@@ -72,8 +72,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 90px;
   text-align: center;
-  padding: 200px
+  padding: 160px
 }
 
 .content-wrap {
@@ -82,6 +83,19 @@ a {
   justify-content: center;
   align-items: center;
   gap: 5px;
+}
+
+.hero-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1076px;
+  height: 178px;
+}
+
+.hero-social img {
+  width: 349px;
+  height: 90px;
 }
 
 .hero-text {
@@ -115,6 +129,7 @@ a {
 
 .arrow {
   margin-top: 30px;
+  transform: rotate(6deg);
 }
 
 .arrow p {
@@ -127,6 +142,69 @@ a {
 .arrow img {
   height: 20px;
   width: 20px;
+}
+
+/* Styling for text */
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 66px;
+}
+
+.t-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.t-container p {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.brown {
+  color: #adadad
+}
+/* Styling for partners */
+
+.partners {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  gap: 70px;
+}
+
+.partners h1 {
+  font-size: 64px;
+}
+
+.p-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.brand {
+  background: #f5f5f5;
+  width: 200px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.brand img {
+  width: 150px;
+  height: 40px;
 }
 
 /*Styling for socials*/
@@ -149,7 +227,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 38px;
+  flex-wrap: wrap;
 }
 
 .fb, .tw, .db, .pt, .mm, .rd, .vk, .in {
@@ -159,7 +238,7 @@ a {
   background: #fff;
   width: 124px;
   height: 124px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .tw {
   background: #a8ff35;
@@ -299,9 +378,9 @@ input:checked + .slider:before {
 .deal-container {
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-self: center;
-  gap: 80px
+  gap: 40px;
 }
 
 .personal, .regular, .premium {
@@ -408,4 +487,113 @@ footer .navbar {
 
 footer .navbar a {
   color: #000;
+}
+
+.tab1 {
+position: absolute;
+width: 348.65px;
+height: 90.54px;
+left: 186px;
+top: 590px;
+transform: rotate(-4deg);
+}
+
+.tab2 {
+position: absolute;
+width: 349.5px;
+height: 89.72px;
+left: 391.16px;
+top: 635px;
+transform: rotate(2deg);
+}
+
+.tab3 {
+position: absolute;
+width: 348.98px;
+height: 89.27px;
+left: 639.12px;
+top: 595.78px;
+transform: rotate(-2deg);
+}
+
+.tab4 {
+position: absolute;
+width: 349.76px;
+height: 89.42px;
+left: 913.6px;
+top: 643px;
+transform: rotate(4deg);
+}
+
+/* Styling for open-section */
+
+.open {
+  background: #a8ff35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  gap: 30px;
+}
+
+.o-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.o-wrap h1 {
+  font-size: 72px;
+}
+ 
+.o-wrap p {
+  text-align: center;
+}
+
+.tabb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.bx-1, .bx-3 {
+  transform: rotate(6deg);
+}
+
+.bx-1 img{
+  width: 28.39px;
+  height: 34.45px;
+  transform: rotate(6deg);
+  align-self: flex-end;
+}
+
+.bx-3 img{
+  width: 28.39px;
+  height: 34.45px;
+  transform: rotate(6deg);
+}
+
+.bxx {
+  width: 100px;
+  height: 72.57px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.bx-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 502px;
+  height: 202px;
+  background: #F5F5F5;
+  border-radius: 16px;
+}
+
+.bx-2 img {
+  width: 341.23px;
+  height: 82px;
 }

@@ -26,6 +26,14 @@ a {
   color: #fff;
 }
 
+.nav-menu ul li a:hover {
+  background: #a7ff35e3;
+  color: #000;
+  padding: 0.7em;
+  border: 0.5px solid rgb(216, 216, 216);
+  border-radius: 3px;
+}
+
 /* header {
   height: 100px;
 } */

@@ -1,3 +1,5 @@
+/* || General Styling */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 * {
@@ -6,7 +8,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* Styling for header */
+/* || Styling for header */
 
 img {
   width: 50px;
@@ -30,8 +32,7 @@ a {
   background: #a7ff35e3;
   color: #000;
   padding: 0.7em;
-  border: 0.5px solid rgb(216, 216, 216);
-  border-radius: 3px;
+  transition: .2s;
 }
 
 /* header {
@@ -71,7 +72,7 @@ a {
 }
 
 
-/* Styling for the Hero-section */
+/*  || Styling for the Hero-section */
 
 .hero-section {
   background: #000;
@@ -152,7 +153,7 @@ a {
   width: 20px;
 }
 
-/* Styling for text */
+/* || Styling for text */
 .text {
   display: flex;
   justify-content: center;
@@ -174,7 +175,7 @@ a {
 .brown {
   color: #adadad
 }
-/* Styling for partners */
+/* || Styling for partners */
 
 .partners {
   background: #fff;
@@ -215,7 +216,7 @@ a {
   height: 40px;
 }
 
-/*Styling for socials*/
+/* || Styling for socials*/
 
 .socials {
   background: #fafafa;
@@ -286,7 +287,7 @@ a {
   margin-top: 20px;
 }
 
-/* Styling for deals */
+/* || Styling for deals */
 
 .deals  {
   background: #000;
@@ -321,7 +322,7 @@ a {
   color: #8b8b8b;
 }
 
-/* toggle button */
+/* || toggle button */
 .toggle {
   position: relative;
   display: inline-block;
@@ -454,7 +455,7 @@ hr {
 }
 
 
-/* Styling for newsletter */
+/* || Styling for newsletter */
 .newsletter {
   background: #a8ff35;
   padding: 100px;
@@ -486,7 +487,7 @@ hr {
   margin-top: 20px;
 }
 
-/* Styling for footer */
+/* || Styling for footer */
 footer .navbar {
   background: #fff;
   padding: 13px 80px;
@@ -533,7 +534,7 @@ top: 643px;
 transform: rotate(4deg);
 }
 
-/* Styling for open-section */
+/* || Styling for open-section */
 
 .open {
   background: #a8ff35;
